@@ -16,7 +16,7 @@ int main(void)
     array[3] = 0;
     array[4] = 1;
 
-    for (i = 0; i <= 5; i++) {
+    for (i = 0; i < 5; i++) {
       /* The analyzer iterates on each element of the array, and print
          the value stored in it. Functions from the standard library,
          like 'printf' are supported by the analyzer.
